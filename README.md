@@ -14,7 +14,7 @@ The dataset contains transaction details such as:
 - Authentication Method
 - Previous Fraudulent Transaction Indicator
 
-Additionally, unsupervised learning techniques (K-Means and Isolation Forest) were applied to introduce **Cluster ID** and **Anomaly Detection** as new features.
+Additionally, unsupervised learning techniques (DBSCAN and Isolation Forest) were applied to introduce **Cluster ID** and **Anomaly Detection** as new features.
 
 ## 🚀 Model Performance
 | Metric        | Score  |
@@ -34,7 +34,7 @@ Confusion Matrix:
 ## 🛠️ Tech Stack
 - **Programming Language:** Python
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib
-- **Machine Learning Models:** RandomForest, XGBoost, K-Means Clustering, Isolation Forest
+- **Machine Learning Models:** RandomForest, XGBoost, DBSCAN Clustering, Isolation Forest
 
 ## 🔑 Key Features
 - **Hybrid Approach:** Combines supervised and unsupervised learning for better fraud detection.
@@ -43,10 +43,13 @@ Confusion Matrix:
 - **Fast Processing:** XGBoost provides faster predictions, while RandomForest delivers higher accuracy.
 
 ## 📌 Next Steps
-- Improve interpretability with SHAP values.
+- Automate feature engineering.
 - Optimize hyperparameters for better trade-offs between accuracy and speed.
 - Deploy the model using Flask, FastAPI, or a cloud-based service.
 
+🧑‍💻 Author
+
+Hisham ul hakeem A LinkedIn
 ---
-📢 **Have suggestions or improvements? Feel free to contribute!** 🚀
+
 
